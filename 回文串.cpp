@@ -11,7 +11,7 @@ bool Judge( char str[]){
 int main(){
 char string[256];
 scanf("%s",string);
-if(bool Judge(string)){
+if( Judge(string)){
     printf("YES\n");
 }
 else printf("NO\n");
